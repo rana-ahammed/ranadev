@@ -1,5 +1,7 @@
-import { TBlogs } from '@/app/types';
+import { TBlog } from '@/app/types';
 import { compareDesc, parseISO } from 'date-fns';
+
+type TBlogs = Array<TBlog>;
 
 export const sortBlogs = (blogs: TBlogs) => {
   return blogs

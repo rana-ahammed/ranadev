@@ -8,6 +8,10 @@ const Blog = defineDocumentType(() => ({
       type: 'string',
       required: true,
     },
+    description: {
+      type: 'string',
+      required: true,
+    },
     publishedAt: {
       type: 'date',
       required: true,
@@ -17,8 +21,7 @@ const Blog = defineDocumentType(() => ({
       required: true,
     },
     image: {
-      type: 'string',
-      required: true,
+      type: 'image',
     },
     isPublished: {
       type: 'boolean',

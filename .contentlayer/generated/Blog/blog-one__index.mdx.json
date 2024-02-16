@@ -1,8 +1,17 @@
 {
   "title": "Blog One Title",
+  "description": "This is the description for Blog one",
   "publishedAt": "2024-02-15T00:00:00.000Z",
   "updatedAt": "2024-02-15T00:00:00.000Z",
-  "image": "https://img.freepik.com/free-photo/empty-workplace-office_1098-21662.jpg",
+  "image": {
+    "filePath": "../public/artem-kniaz-Z9_pOnIbgjg-unsplash.jpg",
+    "relativeFilePath": "../../public/artem-kniaz-Z9_pOnIbgjg-unsplash.jpg",
+    "format": "jpeg",
+    "height": 3024,
+    "width": 4032,
+    "aspectRatio": 1.3333333333333333,
+    "blurhashDataUrl": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAA9ElEQVR4nB2OPUjDUBSF7yBkcCxOwiMgGlxEWjqIP0QQdVEDUn9AMDhaIZhBcMhiRHCU4l4UYyYpugmCKIiDOBjENbNb17TwNe9duMO5nO+eI1mW8fXXwrZt4jhG7Y5QO3OwtgQ9opTCdV2+/9tEUUR9tWp0mqbUzycRTeqd25ihcmDRaC2QJAk93vCbDpLnuSEmpoTHl1Oq60N4nsfr57UBpSgKNm9WyjTQ5sWlGkEQEIahAUUXck5GjYAP1J5Fn3faT/OlLkvKsJgP07PC7cMhjWOHi6s1fkqzvstd54jKtstlZ4zm8z7ezjiyLPx27/F9nwHSIpTiHVM4yQAAACt0RVh0Q3JlYXRpb24gVGltZQBGcmksIDE2IEZlYiAyMDI0IDA1OjI1OjMyIEdNVDswkFgAAAAudEVYdFNvZnR3YXJlAGdpdGh1Yi5jb20vbWF0bWVuL0ltYWdlU2NyaXB0IHYxLjIuMTgPYZCBAAAAAElFTkSuQmCC"
+  },
   "isPublished": true,
   "author": "Rana Ahammed",
   "tags": [
