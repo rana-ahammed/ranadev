@@ -1,0 +1,35 @@
+{
+  "title": "This is the title for featured post section six post",
+  "description": "This is the description for Blog six",
+  "publishedAt": "2024-02-15T00:00:00.000Z",
+  "updatedAt": "2024-02-15T00:00:00.000Z",
+  "image": {
+    "filePath": "../public/dell-uifTyG8vUCk-unsplash.jpg",
+    "relativeFilePath": "../../public/dell-uifTyG8vUCk-unsplash.jpg",
+    "format": "jpeg",
+    "height": 1277,
+    "width": 1920,
+    "aspectRatio": 1.5035238841033673,
+    "blurhashDataUrl": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABDUlEQVR4nB3FwStDcQDA8Z+0tfdmSElqqGkktdUuXLBiDrbMRpNsvTLKW4r3nKjtSYqSNYfRUMhRKTs4LKUoV4VQUv4AptSK03e1w6eP+LrW4X2X/4ck2riblSkPiyE3qr+LyEAb4ukwxN1OkL97jVS0h8ejMJlEH/qEh+igE5E3vHyeK/xcxVgOu/k4GaN0o3Kq96MMdyJmva2oAReWFheSuYrnPT+/hTmK+TDpeC+i2y4R97XTWC8QziS3mz6+L6cpFSK8HQQRHc1mZoYcNFhNCLtBdZOD19woxYsAL/sjiGxK4XhrnrOMzvbaArn0KtmNBOvaJMZSDFFjs2CrlbDVyZVl2YJsNVdIsokyxdGI9hrAnkgAAAArdEVYdENyZWF0aW9uIFRpbWUAU2F0LCAxNyBGZWIgMjAyNCAwOToyMzo1MCBHTVT4tLxtAAAALnRFWHRTb2Z0d2FyZQBnaXRodWIuY29tL21hdG1lbi9JbWFnZVNjcmlwdCB2MS4yLjE4D2GQgQAAAABJRU5ErkJggg=="
+  },
+  "isPublished": true,
+  "author": "Rana Ahammed",
+  "tags": [
+    "productivity",
+    "css"
+  ],
+  "body": {
+    "raw": "\n# this is the h1 element.\n\n## this is the h2 element.\n",
+    "html": "<h1>this is the h1 element.</h1>\n<h2>this is the h2 element.</h2>"
+  },
+  "_id": "blog-six/index.mdx",
+  "_raw": {
+    "sourceFilePath": "blog-six/index.mdx",
+    "sourceFileName": "index.mdx",
+    "sourceFileDir": "blog-six",
+    "contentType": "mdx",
+    "flattenedPath": "blog-six"
+  },
+  "type": "Blog",
+  "url": "/blogs/blog-six"
+}

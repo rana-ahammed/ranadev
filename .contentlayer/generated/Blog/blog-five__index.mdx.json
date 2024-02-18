@@ -1,0 +1,35 @@
+{
+  "title": "This is the title for featured post section five post",
+  "description": "This is the description for Blog five",
+  "publishedAt": "2024-02-15T00:00:00.000Z",
+  "updatedAt": "2024-02-15T00:00:00.000Z",
+  "image": {
+    "filePath": "../public/eaters-collective-i_xVfNtQjwI-unsplash.jpg",
+    "relativeFilePath": "../../public/eaters-collective-i_xVfNtQjwI-unsplash.jpg",
+    "format": "jpeg",
+    "height": 1281,
+    "width": 1920,
+    "aspectRatio": 1.4988290398126465,
+    "blurhashDataUrl": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABDklEQVR4nA3KPUsCYQDA8edr9AVaWhSSiogaoqFFGmoqehmKCIRI0JAiCpO0pPko8CUMFBQiRChfoBOU1ErQTu+qs4toOIJwsO1f+0/kA1u0spe0Yj5qwQ3ynjniS6MEJvt5iEoIvV7GqJcwqhn0qIu3kAs5dEj7ws2z5EC8ZsI01y1oCT815YOm/A9juxiRfSpHi4hGLknJaSd1FuFEOmVvdRbb2AQFzzyVgxVE+/aKp7Cf726PgvrLgsONxTZMQ3vHlBMIJbjJ/bmXTvyYWrlK0buMeZeim43yJScRlqFxHnPXtFWdNWsfaecMykuH3LYdLRNCDNpG+PzpoRTTmDcSzVIRQ1XYmbLimx7gD+ejubwAce97AAAAK3RFWHRDcmVhdGlvbiBUaW1lAFNhdCwgMTcgRmViIDIwMjQgMDg6NDc6MzggR01UKEO8AQAAAC50RVh0U29mdHdhcmUAZ2l0aHViLmNvbS9tYXRtZW4vSW1hZ2VTY3JpcHQgdjEuMi4xOA9hkIEAAAAASUVORK5CYII="
+  },
+  "isPublished": true,
+  "author": "Rana Ahammed",
+  "tags": [
+    "productivity",
+    "css"
+  ],
+  "body": {
+    "raw": "\n# this is the h1 element.\n\n## this is the h2 element.\n",
+    "html": "<h1>this is the h1 element.</h1>\n<h2>this is the h2 element.</h2>"
+  },
+  "_id": "blog-five/index.mdx",
+  "_raw": {
+    "sourceFilePath": "blog-five/index.mdx",
+    "sourceFileName": "index.mdx",
+    "sourceFileDir": "blog-five",
+    "contentType": "mdx",
+    "flattenedPath": "blog-five"
+  },
+  "type": "Blog",
+  "url": "/blogs/blog-five"
+}

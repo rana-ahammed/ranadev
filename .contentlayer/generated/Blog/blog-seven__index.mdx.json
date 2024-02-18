@@ -1,0 +1,35 @@
+{
+  "title": "This is the title for featured post section seven post",
+  "description": "This is the description for Blog seven",
+  "publishedAt": "2024-02-15T00:00:00.000Z",
+  "updatedAt": "2024-02-15T00:00:00.000Z",
+  "image": {
+    "filePath": "../public/linus-mimietz-gvptKmonylk-unsplash.jpg",
+    "relativeFilePath": "../../public/linus-mimietz-gvptKmonylk-unsplash.jpg",
+    "format": "jpeg",
+    "height": 1080,
+    "width": 1920,
+    "aspectRatio": 1.7777777777777777,
+    "blurhashDataUrl": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABDklEQVR4nBXJTyuDcQDA8d8b0HJRVlxdaOVgZTU27Y+NpWeH0Yb9eVqamE3DbnZQJIVRIuWgHazcpLZ6nkSxZJIcPE/ZaM/exlc7f4TdMYrNbsXncRLwu/GGFvBGckzF8/gTaUQHJh12ZM8Eqy4H0XCexXQZST7BF91CzAZczLnHKE67qAZnKMZuyKRqJLMK0tIRIh0JsDMf5DEu8bm9hpKrU73Tyaw8EVq+RBxuxhgeMlNw2njWfunzZOgKX3B28E5qo4R4KO2jqbf8vVQZPH/DPC7T3dPLR63J9dU94ue1Quv7C0PXaOsNTCYTRrNNq2GgVhRE2G9jLykxYhlAzcbpt1g53a1zXCgjJ9b5B/womvVD85RvAAAAK3RFWHRDcmVhdGlvbiBUaW1lAFNhdCwgMTcgRmViIDIwMjQgMDg6NTA6MDkgR01Ujgn6RQAAAC50RVh0U29mdHdhcmUAZ2l0aHViLmNvbS9tYXRtZW4vSW1hZ2VTY3JpcHQgdjEuMi4xOA9hkIEAAAAASUVORK5CYII="
+  },
+  "isPublished": true,
+  "author": "Rana Ahammed",
+  "tags": [
+    "productivity",
+    "css"
+  ],
+  "body": {
+    "raw": "\n# this is the h1 element.\n\n## this is the h2 element.\n",
+    "html": "<h1>this is the h1 element.</h1>\n<h2>this is the h2 element.</h2>"
+  },
+  "_id": "blog-seven/index.mdx",
+  "_raw": {
+    "sourceFilePath": "blog-seven/index.mdx",
+    "sourceFileName": "index.mdx",
+    "sourceFileDir": "blog-seven",
+    "contentType": "mdx",
+    "flattenedPath": "blog-seven"
+  },
+  "type": "Blog",
+  "url": "/blogs/blog-seven"
+}

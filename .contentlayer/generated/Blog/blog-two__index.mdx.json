@@ -1,0 +1,35 @@
+{
+  "title": "This is the title for featured post section first post",
+  "description": "This is the description for Blog Two",
+  "publishedAt": "2024-02-15T00:00:00.000Z",
+  "updatedAt": "2024-02-15T00:00:00.000Z",
+  "image": {
+    "filePath": "../public/dell-7ZWVnVSaafY-unsplash.jpg",
+    "relativeFilePath": "../../public/dell-7ZWVnVSaafY-unsplash.jpg",
+    "format": "jpeg",
+    "height": 1536,
+    "width": 1920,
+    "aspectRatio": 1.25,
+    "blurhashDataUrl": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAA50lEQVR4nD2Pu0rDABiF/1yaGNs0SXOpqVasNRWtxFtQizWLBsQhFh0cHNx8AxERHJzdfABXH8DRd/s0LXQ4y+Hj4xyJWhZew6Ad2LjOIn7goChCHDQxTAtZCW00TSHyG3NAVYWOb1MzFpCqrDI3+B4igqoJulFDioHH+YbLTRpRDtt43sywtdycAd+f7zxNcorEZS+2uH/+4np3idg1eSwPkF5/TNI/5bXc5/ftkJePH66OB1zm2dQkdV0Igw55z2G0WuehyLg9SdiObIbrXWQzNFlrmej/o6p7k7OUu4sjxjtdRlnKHxAzWZl0OURAAAAAK3RFWHRDcmVhdGlvbiBUaW1lAFNhdCwgMTcgRmViIDIwMjQgMTA6NDM6MzQgR01USJ/y0AAAAC50RVh0U29mdHdhcmUAZ2l0aHViLmNvbS9tYXRtZW4vSW1hZ2VTY3JpcHQgdjEuMi4xOA9hkIEAAAAASUVORK5CYII="
+  },
+  "isPublished": true,
+  "author": "Rana Ahammed",
+  "tags": [
+    "productivity",
+    "css"
+  ],
+  "body": {
+    "raw": "\n# this is the h1 element.\n\n## this is the h2 element.\n",
+    "html": "<h1>this is the h1 element.</h1>\n<h2>this is the h2 element.</h2>"
+  },
+  "_id": "blog-two/index.mdx",
+  "_raw": {
+    "sourceFilePath": "blog-two/index.mdx",
+    "sourceFileName": "index.mdx",
+    "sourceFileDir": "blog-two",
+    "contentType": "mdx",
+    "flattenedPath": "blog-two"
+  },
+  "type": "Blog",
+  "url": "/blogs/blog-two"
+}

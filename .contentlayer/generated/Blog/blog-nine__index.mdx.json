@@ -1,0 +1,35 @@
+{
+  "title": "This is the title for featured post section nine post",
+  "description": "This is the description for Blog nine",
+  "publishedAt": "2024-02-15T00:00:00.000Z",
+  "updatedAt": "2024-02-15T00:00:00.000Z",
+  "image": {
+    "filePath": "../public/justin-schwartfigure-sOML7BllOZg-unsplash.jpg",
+    "relativeFilePath": "../../public/justin-schwartfigure-sOML7BllOZg-unsplash.jpg",
+    "format": "jpeg",
+    "height": 1280,
+    "width": 1920,
+    "aspectRatio": 1.5,
+    "blurhashDataUrl": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABCklEQVR4nB2O2ytDcQCAfzubbckp10jmOjXlgW3aLaUokyQ6JUta3rz4A4ikJh6IrV1aUrKijrWzi41ySvHi6TzwSP6Uz+z1e/i+T1hsgjVlme+fXyxWEwtzM3gmxogdH7KzpSD+YdDnZmNzHXlYMB2cwusd5yh2wHZ0BZFTcyyGZ9EqZcx2idaOFlyuQU7PT4gqYURN1wn5PZSqj0iSIBJZZcTZRyabpPRUQRifX/QP9WJrNmMyCeLpS9Rinpvba5bmQ4gmm0Qym8A5OlA3SPR0t3MRPyOVSaAWtPrD/R35oobP76atU8bh6CIQmORBK/CsvyDsspVyrcrr+1sDfBgGe/u7jVT6KsUfBGOJEvX7F8gAAAArdEVYdENyZWF0aW9uIFRpbWUAU2F0LCAxNyBGZWIgMjAyNCAwODo0OTozOCBHTVQ9ya4zAAAALnRFWHRTb2Z0d2FyZQBnaXRodWIuY29tL21hdG1lbi9JbWFnZVNjcmlwdCB2MS4yLjE4D2GQgQAAAABJRU5ErkJggg=="
+  },
+  "isPublished": true,
+  "author": "Rana Ahammed",
+  "tags": [
+    "productivity",
+    "css"
+  ],
+  "body": {
+    "raw": "\n# this is the h1 element.\n\n## this is the h2 element.\n",
+    "html": "<h1>this is the h1 element.</h1>\n<h2>this is the h2 element.</h2>"
+  },
+  "_id": "blog-nine/index.mdx",
+  "_raw": {
+    "sourceFilePath": "blog-nine/index.mdx",
+    "sourceFileName": "index.mdx",
+    "sourceFileDir": "blog-nine",
+    "contentType": "mdx",
+    "flattenedPath": "blog-nine"
+  },
+  "type": "Blog",
+  "url": "/blogs/blog-nine"
+}

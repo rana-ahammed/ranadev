@@ -1,0 +1,35 @@
+{
+  "title": "This is the title for featured post section four post",
+  "description": "This is the description for Blog four",
+  "publishedAt": "2024-02-15T00:00:00.000Z",
+  "updatedAt": "2024-02-15T00:00:00.000Z",
+  "image": {
+    "filePath": "../public/jason-blackeye-nyL-rzwP-Mk-unsplash.jpg",
+    "relativeFilePath": "../../public/jason-blackeye-nyL-rzwP-Mk-unsplash.jpg",
+    "format": "jpeg",
+    "height": 1280,
+    "width": 1920,
+    "aspectRatio": 1.5,
+    "blurhashDataUrl": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABEklEQVR4nA3MTyuDcQDA8Z8D5U7tLOQyufkXUmorByWHLcWaQgsTYhe2xNa2VmvqkbJlnqktI9L2XOYpi3p60rbsMM0BdxdLWS5fewMfISy7NFndtNgO6XCE6XJGMG4eM+FJMOO/RDTPeWm1B2hbCdO5ITHolhnYO2cqeIUzqiIMiyEM6xI9rijGnVP6PTLTkQyzUhbXRR7Rux1jZD/F0EGKMX+ayfAttmiOrZSG766AMAfSWKUMy3GVhVgOh/zAaiKP61ojqJQQzjMV743GUVYnrhZIPpX5+v6hVq9T+/1DRLLPyGqRyvsnL5Uq5dc3lEede72EojUEk8NLe984w2shTJZ5lqQk3aNm7L4TitUP/gFcTKj7AQS1pAAAACt0RVh0Q3JlYXRpb24gVGltZQBTYXQsIDE3IEZlYiAyMDI0IDA4OjQ5OjA4IEdNVLtd3J0AAAAudEVYdFNvZnR3YXJlAGdpdGh1Yi5jb20vbWF0bWVuL0ltYWdlU2NyaXB0IHYxLjIuMTgPYZCBAAAAAElFTkSuQmCC"
+  },
+  "isPublished": true,
+  "author": "Rana Ahammed",
+  "tags": [
+    "productivity",
+    "css"
+  ],
+  "body": {
+    "raw": "\n# this is the h1 element.\n\n## this is the h2 element.\n",
+    "html": "<h1>this is the h1 element.</h1>\n<h2>this is the h2 element.</h2>"
+  },
+  "_id": "blog-four/index.mdx",
+  "_raw": {
+    "sourceFilePath": "blog-four/index.mdx",
+    "sourceFileName": "index.mdx",
+    "sourceFileDir": "blog-four",
+    "contentType": "mdx",
+    "flattenedPath": "blog-four"
+  },
+  "type": "Blog",
+  "url": "/blogs/blog-four"
+}

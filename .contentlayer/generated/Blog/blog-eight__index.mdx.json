@@ -1,0 +1,35 @@
+{
+  "title": "This is the title for featured post section eight post",
+  "description": "This is the description for Blog eight",
+  "publishedAt": "2024-02-15T00:00:00.000Z",
+  "updatedAt": "2024-02-15T00:00:00.000Z",
+  "image": {
+    "filePath": "../public/dell-8pb7Hq539Zw-unsplash.jpg",
+    "relativeFilePath": "../../public/dell-8pb7Hq539Zw-unsplash.jpg",
+    "format": "jpeg",
+    "height": 1282,
+    "width": 1920,
+    "aspectRatio": 1.497659906396256,
+    "blurhashDataUrl": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABE0lEQVR4nB3NTyhDcQDA8V+5uDm7OIzUSimNmpKLtsbBwYVyI7nsgKZ2UA42q61s3mFlQ1rWoqW2nbT5k7I8YczEm+bJwtb0mgMOr77i/qmPmPSvUKi8kSk+EDw9YtQ+wIRzBF3X+f75RDy+l6jWK9S/NGpamc5BIy7nMKXqHbFMGOFNJrh6VdlKx2ls66XFNITknSKVTXKQlxHnapEzVSGZv6Sh3fyPdhMSifQa/g0X4lApsHed469q6rJgsIxjm7YzZjUTCgUQETlL5kLmuVamtaMbQ7+VvvllbEur7OdOEPKTwubtPe6dKMGohGnGzYJnkUB0nVj2GJG6yTHncdBjbMbhc+PfDhOOR3jRPpiVfPwCUpK0KjJVsc8AAAArdEVYdENyZWF0aW9uIFRpbWUAU2F0LCAxNyBGZWIgMjAyNCAwODo0NjoxNSBHTVRRsdklAAAALnRFWHRTb2Z0d2FyZQBnaXRodWIuY29tL21hdG1lbi9JbWFnZVNjcmlwdCB2MS4yLjE4D2GQgQAAAABJRU5ErkJggg=="
+  },
+  "isPublished": true,
+  "author": "Rana Ahammed",
+  "tags": [
+    "productivity",
+    "css"
+  ],
+  "body": {
+    "raw": "\n# this is the h1 element.\n\n## this is the h2 element.\n",
+    "html": "<h1>this is the h1 element.</h1>\n<h2>this is the h2 element.</h2>"
+  },
+  "_id": "blog-eight/index.mdx",
+  "_raw": {
+    "sourceFilePath": "blog-eight/index.mdx",
+    "sourceFileName": "index.mdx",
+    "sourceFileDir": "blog-eight",
+    "contentType": "mdx",
+    "flattenedPath": "blog-eight"
+  },
+  "type": "Blog",
+  "url": "/blogs/blog-eight"
+}

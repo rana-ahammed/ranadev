@@ -1,16 +1,16 @@
 {
-  "title": "Blog One Title",
+  "title": "This is an example of an blog which number is one",
   "description": "This is the description for Blog one",
   "publishedAt": "2024-02-15T00:00:00.000Z",
   "updatedAt": "2024-02-15T00:00:00.000Z",
   "image": {
-    "filePath": "../public/artem-kniaz-Z9_pOnIbgjg-unsplash.jpg",
-    "relativeFilePath": "../../public/artem-kniaz-Z9_pOnIbgjg-unsplash.jpg",
+    "filePath": "../public/akhil-yerabati-Q2uV5TkjNz8-unsplash.jpg",
+    "relativeFilePath": "../../public/akhil-yerabati-Q2uV5TkjNz8-unsplash.jpg",
     "format": "jpeg",
-    "height": 3024,
-    "width": 4032,
-    "aspectRatio": 1.3333333333333333,
-    "blurhashDataUrl": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAA9ElEQVR4nB2OPUjDUBSF7yBkcCxOwiMgGlxEWjqIP0QQdVEDUn9AMDhaIZhBcMhiRHCU4l4UYyYpugmCKIiDOBjENbNb17TwNe9duMO5nO+eI1mW8fXXwrZt4jhG7Y5QO3OwtgQ9opTCdV2+/9tEUUR9tWp0mqbUzycRTeqd25ihcmDRaC2QJAk93vCbDpLnuSEmpoTHl1Oq60N4nsfr57UBpSgKNm9WyjTQ5sWlGkEQEIahAUUXck5GjYAP1J5Fn3faT/OlLkvKsJgP07PC7cMhjWOHi6s1fkqzvstd54jKtstlZ4zm8z7ezjiyLPx27/F9nwHSIpTiHVM4yQAAACt0RVh0Q3JlYXRpb24gVGltZQBGcmksIDE2IEZlYiAyMDI0IDA1OjI1OjMyIEdNVDswkFgAAAAudEVYdFNvZnR3YXJlAGdpdGh1Yi5jb20vbWF0bWVuL0ltYWdlU2NyaXB0IHYxLjIuMTgPYZCBAAAAAElFTkSuQmCC"
+    "height": 1086,
+    "width": 1920,
+    "aspectRatio": 1.7679558011049723,
+    "blurhashDataUrl": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAA+0lEQVR4nCWOTStEARiFz9zZii07Cz9BVopMM4VSRhElkcSkNLaSqNvMasqCH2BnkntnuOyUuklZ3GEzIgvjOxtpmkkWj7cs3tX7nOcc+aV9nqKQ2pKoTDvczTs8LornZZHo7UbBic9LWKI6J87HRDguPlbF17p4NUj3YZmHBVGdjbHdIz4zDjuFPM0t8b1hQGVSXE+Jq7TYzU7wnhW3Zmu6MX5ycXQ0aFp7RlFEJtGFNyyy6X7qmw6NfBs6SImzUYOCQ2Y6xVB7jIFUktNjj99CByom/oFLu70+4fllS1u/28Lbmm0oJkVg2gurubE9tYxouHHquVZWRsQfkfCUpmMy4c0AAAArdEVYdENyZWF0aW9uIFRpbWUAU2F0LCAxNyBGZWIgMjAyNCAwNzo1MTowNCBHTVQpy8qsAAAALnRFWHRTb2Z0d2FyZQBnaXRodWIuY29tL21hdG1lbi9JbWFnZVNjcmlwdCB2MS4yLjE4D2GQgQAAAABJRU5ErkJggg=="
   },
   "isPublished": true,
   "author": "Rana Ahammed",

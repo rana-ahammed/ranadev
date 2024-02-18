@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header className="w-full p-4 px-10 flex items-center justify-between">
       <Logo />
-      <nav className="flex items-center w-max border border-solid border-dark rounded-full gap-3 py-3 px-8 fixed top-6 right-1/2 translate-x-1/2 bg-light/80 backdrop-blur-sm text-xl font-semibold">
+      <nav className="flex items-center w-max border border-solid border-dark rounded-full gap-3 py-3 px-8 fixed top-6 right-1/2 translate-x-1/2 bg-light/80 backdrop-blur-sm text-xl font-semibold z-50">
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/contact">Contact</Link>

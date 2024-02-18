@@ -1,0 +1,35 @@
+{
+  "title": "This is the title for featured post section third post",
+  "description": "This is the description for Blog Third",
+  "publishedAt": "2024-02-15T00:00:00.000Z",
+  "updatedAt": "2024-02-15T00:00:00.000Z",
+  "image": {
+    "filePath": "../public/alex-kotliarskyi-ourQHRTE2IM-unsplash.jpg",
+    "relativeFilePath": "../../public/alex-kotliarskyi-ourQHRTE2IM-unsplash.jpg",
+    "format": "jpeg",
+    "height": 1280,
+    "width": 1920,
+    "aspectRatio": 1.5,
+    "blurhashDataUrl": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAA+0lEQVR4nB3KQSsEUQDA8WfMm/fe7sy8MbujyW4su6XkRjjIZSfckAOJOG2pvThoT45KUiTlAyi5iPABXJSj9ujuQuLu8Lft/Se020PBKGKtKEUhodZY6TKU9GOURhhX8Lzd6IL5pTkqfp5yMSaSBtOBIucpFmc2SW1EGlqWJwe52FvlcaNJyTeIg919rDFMCUUSJrwdn3CeFahXU8a8DNFsrDOcVGlfntLa+uCwnjFeG2EgkLjiHbGzMEEgi9y2flDymrXyGdpxsEqScywilDlMr+Xz65unNtytPHSgR15KfBMjZmsVXq5+eb35w3UkgasYDfuItMfR9D3/i7VqRHt2H3kAAAArdEVYdENyZWF0aW9uIFRpbWUAU2F0LCAxNyBGZWIgMjAyNCAwNzoyNjoxNyBHTVTLkwcJAAAALnRFWHRTb2Z0d2FyZQBnaXRodWIuY29tL21hdG1lbi9JbWFnZVNjcmlwdCB2MS4yLjE4D2GQgQAAAABJRU5ErkJggg=="
+  },
+  "isPublished": true,
+  "author": "Rana Ahammed",
+  "tags": [
+    "productivity",
+    "css"
+  ],
+  "body": {
+    "raw": "\n# this is the h1 element.\n\n## this is the h2 element.\n",
+    "html": "<h1>this is the h1 element.</h1>\n<h2>this is the h2 element.</h2>"
+  },
+  "_id": "blog-three/index.mdx",
+  "_raw": {
+    "sourceFilePath": "blog-three/index.mdx",
+    "sourceFileName": "index.mdx",
+    "sourceFileDir": "blog-three",
+    "contentType": "mdx",
+    "flattenedPath": "blog-three"
+  },
+  "type": "Blog",
+  "url": "/blogs/blog-three"
+}
