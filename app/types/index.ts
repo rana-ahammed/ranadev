@@ -18,6 +18,7 @@ export type TBlog = {
   body: {
     raw: string;
     html: string;
+    code: string;
   };
   _id: string;
   _raw: {
@@ -29,4 +30,6 @@ export type TBlog = {
   };
   type: string;
   url: string;
+  readingTime: { text: string; minutes: number; time: number; words: number };
+  toc: [{ level: string; text: string; slug: string }];
 };

@@ -3,6 +3,7 @@ import { sortBlogs } from '@/utils';
 import Image from 'next/image';
 import Tags from '../Elements/Tags';
 import Link from 'next/link';
+import { slug } from 'github-slugger';
 
 interface IProps {
   blogs: Array<TBlog>;
@@ -11,7 +12,6 @@ interface IProps {
 const HomeCoverSection = ({ blogs }: IProps) => {
   const sortedBlogs = sortBlogs(blogs);
   const blog = sortedBlogs[0];
-  console.log(blogs);
   return (
     <div className="w-full">
       <article className="flex flex-col items-start justify-end mx-10 relative h-[85vh]">
@@ -25,7 +25,10 @@ const HomeCoverSection = ({ blogs }: IProps) => {
           className="h-20 w-full object-center object-cover rounded-3xl -z-10"
         />
         <div className="w-3/4 p-16 flex flex-col items-start justify-center z-0 text-light">
-          <Tags link={`/categories/${blog.tags[0]}`} name={blog.tags[0]} />
+          <Tags
+            link={`/categories/${slug(blog.tags[0])}`}
+            name={blog.tags[0]}
+          />
           <Link href={blog.url} className="mt-6">
             <h1 className="font-bold text-4xl capitalize">
               <span className="bg-gradient-to-r from-accent to-accent bg-[length:0px_6px] hover:bg-[length:100%_6px] bg-left-bottom bg-no-repeat transition-[background-size] duration-200">

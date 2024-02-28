@@ -3,6 +3,7 @@ import Image from 'next/image';
 import React from 'react';
 import Tags from '../Elements/Tags';
 import Link from 'next/link';
+import { slug } from 'github-slugger';
 
 interface IProps {
   blog: TBlog;
@@ -21,12 +22,14 @@ const BlogLayoutOne = ({ blog }: IProps) => {
         placeholder="blur"
         blurDataURL={blog.image.blurhashDataUrl}
         alt={blog.title}
-        fill
-        className="w-full h-full object-center object-cover rounded-xl group-hover:scale-100 transition-all ease duration-300"
+        sizes="100%"
+        width={blog.image.width}
+        height={blog.image.height}
+        className="w-full h-full object-center object-cover rounded-xl group-hover:scale-105 transition-all ease duration-300"
       />
 
       <div className="w-full absolute bottom-0 p-4 xs:p-6 sm:p-10 z-20">
-        <Tags link={`/categories/${blog.tags[0]}`} name={blog.tags[0]} />
+        <Tags link={`/categories/${slug(blog.tags[0])}`} name={blog.tags[0]} />
         <Link href={blog.url} className="mt-6">
           <h2 className="font-bold capitalize text-sm xs:text-base sm:text-xl md:text-2xl text-light mt-2 sm:mt-4">
             <span

@@ -1,5 +1,6 @@
 // contentlayer.config.js
 import { makeSource, defineDocumentType } from "@contentlayer/source-files";
+import readingTime from "reading-time";
 var Blog = defineDocumentType(() => ({
   name: "Blog",
   filePathPattern: "**/**/*.mdx",
@@ -41,6 +42,10 @@ var Blog = defineDocumentType(() => ({
       type: "string",
       resolve: (doc) => `/blogs/${doc._raw.flattenedPath}`
     }
+  },
+  readingTime: {
+    type: "json",
+    resolve: (doc) => readingTime(doc.body.raw)
   }
 }));
 var contentlayer_config_default = makeSource({
@@ -50,4 +55,4 @@ var contentlayer_config_default = makeSource({
 export {
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-HHRPQSTX.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-BCSWG7FN.mjs.map
