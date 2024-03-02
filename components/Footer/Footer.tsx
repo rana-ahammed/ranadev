@@ -6,6 +6,7 @@ import { FaSquareXTwitter } from 'react-icons/fa6';
 import { FaGithubSquare } from 'react-icons/fa';
 import { FaSquareFacebook } from 'react-icons/fa6';
 import Link from 'next/link';
+import { siteMetaData } from '@/utils/siteMetaData';
 
 const Footer = () => {
   const {
@@ -41,16 +42,16 @@ const Footer = () => {
       </form>
 
       <div className="flex text-xl gap-5 mt-8">
-        <a href="https://linkedin.com/in/rana-ahammed1">
+        <a href={siteMetaData.linkedin}>
           <FaLinkedin className="text-[#2A76B5] fill-light text-3xl hover:scale-125 transition-all ease duration-200" />
         </a>
-        <a href="https://twitter.com/rana_ahammed_">
+        <a href={siteMetaData.twitter}>
           <FaSquareXTwitter className="text-3xl hover:scale-125 transition-all ease duration-200" />
         </a>
-        <a href="https://github.com/rana-ahammed">
+        <a href={siteMetaData.github}>
           <FaGithubSquare className="text-3xl hover:scale-125 transition-all ease duration-200" />
         </a>
-        <a href="https://facebook.com/rana-ahammed">
+        <a href={siteMetaData.facebook}>
           <FaSquareFacebook className="text-3xl fill-light text-[#385598] hover:scale-125 transition-all ease duration-200" />
         </a>
       </div>
