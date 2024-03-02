@@ -14,7 +14,7 @@ const HomeCoverSection = ({ blogs }: IProps) => {
   const blog = sortedBlogs[0];
   return (
     <div className="w-full">
-      <article className="flex flex-col items-start justify-end mx-10 relative h-[85vh]">
+      <article className="flex flex-col items-start justify-end mx-5 sm:mx-10 relative h-[85vh]">
         <div className="absolute top-0 left-0 bottom-0 right-0 h-full bg-gradient-to-b from-transparent from-0% to-dark/90 z-0 rounded-3xl" />
         <Image
           src={blog.image.filePath.replace('../public', '')}
@@ -24,7 +24,7 @@ const HomeCoverSection = ({ blogs }: IProps) => {
           fill
           className="h-20 w-full object-center object-cover rounded-3xl -z-10"
         />
-        <div className="w-3/4 p-16 flex flex-col items-start justify-center z-0 text-light">
+        <div className="w-full sm:w-3/4 p-16 flex flex-col items-start justify-center z-0 text-light">
           <Tags
             link={`/categories/${slug(blog.tags[0])}`}
             name={blog.tags[0]}
