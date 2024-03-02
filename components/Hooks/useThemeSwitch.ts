@@ -22,7 +22,8 @@ export function useThemeSwitch() {
     return window.matchMedia(preferDarkQuery).matches ? 'dark' : 'light';
   };
 
-  const [mode, setMode] = useState(window.localStorage.getItem(storageKey));
+  const prevMode = window.localStorage.getItem(storageKey);
+  const [mode, setMode] = useState(prevMode);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia(preferDarkQuery);
