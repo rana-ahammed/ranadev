@@ -6,16 +6,18 @@ const Logo = () => {
   return (
     <Link
       href="/"
-      className="flex items-center text-dark gap-3 dark:text-light"
+      className="flex items-center text-dark gap-2 md:gap-3 dark:text-light"
     >
       <div>
         <Image
           src={logo}
           alt="Logo"
-          className="w-12 h-12 rounded-full dark:border-light dark:border-2 dark:border-solid"
+          className="w-12 md:w-16 h-12 rounded-full dark:border-light dark:border-2 dark:border-solid"
         />
       </div>
-      <span className="font-bold dark:font-semibold text-2xl">RanaDev</span>
+      <span className="font-bold dark:font-semibold text-lg md:text-xl">
+        RanaDev
+      </span>
     </Link>
   );
 };
