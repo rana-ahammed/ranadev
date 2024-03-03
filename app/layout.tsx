@@ -5,6 +5,7 @@ import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import { siteMetaData } from '@/utils/siteMetaData';
 import Script from 'next/script';
+import { NextThemeProvider } from './nextThemeProvider';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -62,9 +63,11 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${manrope.variable} font-mr bg-light dark:bg-dark`}
       >
-        <Header />
-        {children}
-        <Footer />
+        <NextThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <Header />
+          {children}
+          <Footer />
+        </NextThemeProvider>
       </body>
     </html>
   );

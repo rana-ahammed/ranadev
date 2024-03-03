@@ -11,7 +11,7 @@ interface IProps {
 
 const BlogDetails = ({ blog, slug }: IProps) => {
   return (
-    <div className="flex items-center px-10 gap-5 bg-accent text-light py-6 justify-around text-xl font-medium mx-10 rounded-lg">
+    <div className="flex-col lg:flex lg:flex-row items-center px-3 md:px-10 gap-2  flex-wrap text-md md:gap-5 bg-accent dark:bg-accentDark dark:text-dark text-light py-6 justify-around text-sm sm:text-xl font-medium mx-2 md:mx-10 rounded-lg">
       <time>{format(parseISO(blog.publishedAt), 'MMMM dd, yyyy')}</time>
       <span>
         <ViewCounter slug={slug} />

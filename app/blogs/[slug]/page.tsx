@@ -69,12 +69,12 @@ export default function BlogPage({ params }: { params: { slug: string } }) {
             name={blog?.tags[0] as string}
             link={`/categories/${githubSlug(blog?.tags[0] as string)}`}
           />
-          <h1 className="inline-block mt-6 font-semiblod capitalize text-light text-5xl leading-normal relative w-5/6 text-center">
+          <h1 className="inline-block mt-6 font-semiblod capitalize text-light md:text-3xl text-2xl lg:text-5xl leading-normal relative w-5/6 text-center">
             {blog?.title}
           </h1>
         </div>
 
-        <div className="h-full absolute top-0 left-0 bottom-0 right-0 bg-dark/60 z-10" />
+        <div className="h-full absolute top-0 left-0 bottom-0 right-0 bg-dark/60 dark:bg-dark/40 z-10" />
         {blog && (
           <Image
             src={blog.image.filePath.replace('../public', '')}
@@ -89,10 +89,10 @@ export default function BlogPage({ params }: { params: { slug: string } }) {
       </div>
 
       <BlogDetails blog={blog as TBlog} slug={params.slug} />
-      <div className="grid grid-cols-12 gap-16 mt-8 px-10">
-        <div className="col-span-4">
+      <div className="grid grid-cols-12 gap-y-8 lg:gap-16 mt-8 px-4 sm:px-5 md:px-10">
+        <div className="col-span-12 lg:col-span-4">
           <details
-            className="border-[1px] border-solid border-dark text-dark rounded-lg p-4 sticky top-6 max-h-[80vh] overflow-hidden overflow-y-auto"
+            className="border-[1px] border-solid border-dark dark:border-light/80 text-dark dark:text-light/80 rounded-lg p-4 sticky top-6 max-h-[80vh] overflow-hidden overflow-y-auto"
             open
           >
             <summary className="text-lg font-semibold capitalize cursor-pinter">
@@ -120,9 +120,7 @@ export default function BlogPage({ params }: { params: { slug: string } }) {
             </ul>
           </details>
         </div>
-        <div className="col-span-8">
-          <RenderMdx blog={blog as TBlog} />
-        </div>
+        <RenderMdx blog={blog as TBlog} />
       </div>
     </article>
   );
