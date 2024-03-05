@@ -7,7 +7,7 @@ import { FaGithubSquare } from 'react-icons/fa';
 import { FaSquareFacebook } from 'react-icons/fa6';
 import { IoMoonSharp } from 'react-icons/io5';
 import { FiSun } from 'react-icons/fi';
-import { siteMetaData } from '@/utils/siteMetaData';
+import siteMetaData from '@/utils/siteMetaData';
 import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 
@@ -28,10 +28,7 @@ const Header = () => {
   return (
     <header className="w-full p-4 md:px-10 flex items-center justify-between mb-2">
       <Logo />
-      <button
-        className="inline-block lg:hidden z-50 mr-3 md:mr-6"
-        onClick={toggle}
-      >
+      <button className="h-auto lg:hidden z-50 mr-3 md:mr-6" onClick={toggle}>
         <div className="w-6 cursor-pointer transition-all ease duration-300">
           <div className="relative">
             <span
@@ -64,7 +61,7 @@ const Header = () => {
         </div>
       </button>
       <nav
-        className="flex lg:hidden items-center w-max border border-solid border-dark rounded-full gap-3 py-2 px-6 sm:px-8 absolute top-6 right-1/2 translate-x-1/2 bg-light/80 backdrop-blur-sm text-md font-medium z-50 ml-3 transition-all ease duration-300 dark:bg-light dark:text-dark"
+        className="flex lg:hidden items-center w-max border border-solid border-dark rounded-full gap-2 py-2 px-4 sm:px-8 absolute top-6 right-1/2 translate-x-1/2 bg-light/80 backdrop-blur-sm text-md font-medium z-50 ml-3 transition-all ease duration-300 dark:bg-light dark:text-dark"
         style={{ top: clicked ? '1.4rem' : '-5rem' }}
       >
         <Link href="/" className="hover:underline hover:text-cyan-500">

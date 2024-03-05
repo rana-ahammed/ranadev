@@ -5,7 +5,7 @@ import RenderMdx from '@/components/Blog/RenderMdx';
 import Tags from '@/components/Elements/Tags';
 import Image from 'next/image';
 import { slug as githubSlug } from 'github-slugger';
-import { siteMetaData } from '@/utils/siteMetaData';
+import siteMetaData from '@/utils/siteMetaData';
 
 export async function generateStaticParams() {
   return allBlogs.map((blog) => ({ slug: blog._raw.flattenedPath }));
@@ -105,7 +105,7 @@ export default function BlogPage({ params }: { params: { slug: string } }) {
                     <a
                       href={`#${heading.slug}`}
                       data-level={heading.level}
-                      className="data-[level=two]:pl-0 data-[level=two]:pt-2 data-[level=two]:border-t border-solid border-dark/40 data-[level=three]:pl-6 flex items-center justify-start"
+                      className="data-[level=two]:pl-0 data-[level=two]:pt-2 data-[level=two]:border-t border-solid border-dark/40 data-[level=three]:pl-3 sm:data-[level=three]:pl-6 flex items-center justify-start"
                     >
                       {heading.level === 'three' ? (
                         <span className="flex w-1 h-1 rounded-full bg-dark mr-2">

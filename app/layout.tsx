@@ -3,8 +3,7 @@ import { Inter, Manrope } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
-import { siteMetaData } from '@/utils/siteMetaData';
-import Script from 'next/script';
+import siteMetaData from '@/utils/siteMetaData';
 import { NextThemeProvider } from './nextThemeProvider';
 
 const inter = Inter({

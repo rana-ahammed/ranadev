@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const { withContentlayer } = require('next-contentlayer');
 const nextConfig = {
+  compiler: {
+    removeConsole: false,
+  },
   reactStrictMode: true,
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
 };

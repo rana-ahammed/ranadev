@@ -1,4 +1,4 @@
-export const siteMetaData = {
+const siteMetaData = {
   title: 'Next.js Blog With Tailwind CSS and Contentlayer',
   author: 'RanaDev',
   headerTitle: 'Next.js Blog',
@@ -16,3 +16,5 @@ export const siteMetaData = {
   instagram: 'https://linkedin.com/in/rana-ahammed1',
   locale: 'en-us',
 };
+
+module.exports = siteMetaData;

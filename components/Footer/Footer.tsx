@@ -6,7 +6,7 @@ import { FaSquareXTwitter } from 'react-icons/fa6';
 import { FaGithubSquare } from 'react-icons/fa';
 import { FaSquareFacebook } from 'react-icons/fa6';
 import Link from 'next/link';
-import { siteMetaData } from '@/utils/siteMetaData';
+import siteMetaData from '@/utils/siteMetaData';
 
 const Footer = () => {
   const {

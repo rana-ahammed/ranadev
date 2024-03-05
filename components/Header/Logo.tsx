@@ -13,6 +13,8 @@ const Logo = () => {
           src={logo}
           alt="Logo"
           className="w-12 md:w-16 h-12 rounded-full dark:border-light dark:border-2 dark:border-solid"
+          sizes="33vw"
+          priority
         />
       </div>
       <span className="font-bold dark:font-semibold text-lg md:text-xl">

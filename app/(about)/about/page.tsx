@@ -13,7 +13,7 @@ export default function About() {
     <>
       <AboutCoverSection />
       <Skills />
-      <h2 className="mt-8 font-semibold text-2xl self-start mx-20 text-dark">
+      <h2 className="mt-8 font-semibold text-lg sm:text-xl lg:text-2xl self-start sm:mx-8 mx-4 md:mx-12 lg:mx-20 text-dark dark:text-light/80 dark:font-normal">
         Have a project in mind? Reach out to me from{' '}
         <Link href="/contact" className="!underline text-blue-400">
           here

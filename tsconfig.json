@@ -27,7 +27,9 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "content/blog-five/index.mdx"
+    "content/blog-five/index.mdx",
+    "next-sitemap.config.js",
+    "utils/siteMetaData.js"
   ],
   "exclude": ["node_modules"]
 }

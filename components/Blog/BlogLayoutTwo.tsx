@@ -21,6 +21,7 @@ const BlogLayoutTwo = ({ blog }: IProps) => {
           blurDataURL={blog.image.blurhashDataUrl}
           width={blog.image.width}
           height={blog.image.height}
+          sizes="(max-width: 640px) 100vw, (max-width: 1020px) 50vw, 33vw"
           className="w-full h-full object-cover object-center aspect-square group-hover:scale-105 transition-all ease duration-200"
         />
       </Link>
