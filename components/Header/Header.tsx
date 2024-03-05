@@ -78,7 +78,11 @@ const Header = () => {
           className="hover:!text-cyan-500"
           onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
         >
-          <FiSun className="text-2xl" />
+          {theme === 'dark' ? (
+            <FiSun className="text-2xl" />
+          ) : (
+            <IoMoonSharp className="text-2xl" />
+          )}
         </button>
       </nav>
       <nav className="hidden lg:flex items-center w-max border border-solid border-dark rounded-full gap-3 py-3 px-8 absolute top-6 right-1/2 translate-x-1/2 bg-light/80 backdrop-blur-sm text-xl font-semibold z-50 dark:bg-light dark:text-dark">
@@ -95,7 +99,7 @@ const Header = () => {
           type="button"
           onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
         >
-          {theme ? (
+          {theme === 'dark' ? (
             <FiSun className="text-2xl" />
           ) : (
             <IoMoonSharp className="text-2xl" />
